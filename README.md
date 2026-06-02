@@ -274,11 +274,11 @@ Conclusão da Missão
 
 | Método | Endpoint      |
 | ------ | ------------- |
-| GET    | /regioes      |
-| GET    | /regioes/{id} |
-| POST   | /regioes      |
-| PUT    | /regioes/{id} |
-| DELETE | /regioes/{id} |
+| GET    | http://localhost:8080/regioes      |
+| GET    | http://localhost:8080/regioes/{id} |
+| POST   | http://localhost:8080/regioes      |
+| PUT    | http://localhost:8080/regioes/{id} |
+| DELETE | http://localhost:8080/regioes/{id} |
 
 ---
 
@@ -286,11 +286,11 @@ Conclusão da Missão
 
 | Método | Endpoint     |
 | ------ | ------------ |
-| GET    | /drones      |
-| GET    | /drones/{id} |
-| POST   | /drones      |
-| PUT    | /drones/{id} |
-| DELETE | /drones/{id} |
+| GET    | http://localhost:8080/drones      |
+| GET    | http://localhost:8080/drones/{id} |
+| POST   | http://localhost:8080/drones      |
+| PUT    | http://localhost:8080/drones/{id} |
+| DELETE | http://localhost:8080/drones/{id} |
 
 ---
 
@@ -298,11 +298,11 @@ Conclusão da Missão
 
 | Método | Endpoint      |
 | ------ | ------------- |
-| GET    | /missoes      |
-| GET    | /missoes/{id} |
-| POST   | /missoes      |
-| PUT    | /missoes/{id} |
-| DELETE | /missoes/{id} |
+| GET    | http://localhost:8080/missoes      |
+| GET    | http://localhost:8080/missoes/{id} |
+| POST   | http://localhost:8080/missoes      |
+| PUT    | http://localhost:8080/missoes/{id} |
+| DELETE | http://localhost:8080/missoes/{id} |
 
 ---
 
@@ -313,7 +313,7 @@ Conclusão da Missão
 ### POST
 
 ```http
-POST /regioes
+POST http://localhost:8080/regioes
 ```
 
 ```json
@@ -329,19 +329,19 @@ POST /regioes
 ### GET
 
 ```http
-GET /regioes
+GET http://localhost:8080/regioes
 ```
 
 ### GET POR ID
 
 ```http
-GET /regioes/1
+GET http://localhost:8080/regioes/1
 ```
 
 ### PUT
 
 ```http
-PUT /regioes/1
+PUT http://localhost:8080/regioes/1
 ```
 
 ```json
@@ -367,7 +367,7 @@ DELETE /regioes/1
 ### POST
 
 ```http
-POST /drones
+POST http://localhost:8080/drones
 ```
 
 ```json
@@ -382,19 +382,19 @@ POST /drones
 ### GET
 
 ```http
-GET /drones
+GET http://localhost:8080/drones
 ```
 
 ### GET POR ID
 
 ```http
-GET /drones/1
+GET http://localhost:8080/drones/1
 ```
 
 ### PUT
 
 ```http
-PUT /drones/1
+PUT http://localhost:8080/drones/1
 ```
 
 ```json
@@ -409,7 +409,7 @@ PUT /drones/1
 ### DELETE
 
 ```http
-DELETE /drones/1
+DELETE http://localhost:8080/drones/1
 ```
 
 ---
@@ -419,7 +419,7 @@ DELETE /drones/1
 ### POST
 
 ```http
-POST /missoes
+POST http://localhost:8080/missoes
 ```
 
 ```json
@@ -433,19 +433,19 @@ POST /missoes
 ### GET
 
 ```http
-GET /missoes
+GET http://localhost:8080/missoes
 ```
 
 ### GET POR ID
 
 ```http
-GET /missoes/1
+GET http://localhost:8080/missoes/1
 ```
 
 ### PUT
 
 ```http
-PUT /missoes/1
+PUT http://localhost:8080/missoes/1
 ```
 
 ```json
@@ -458,7 +458,7 @@ PUT /missoes/1
 ### DELETE
 
 ```http
-DELETE /missoes/1
+DELETE http://localhost:8080/missoes/1
 ```
 
 ---
