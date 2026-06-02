@@ -1,4 +1,4 @@
-# Space Logistics API
+# AstroRail API
 
 ## Integrantes
 
@@ -33,7 +33,7 @@ Exemplos de locais afetados:
 
 # Solução Proposta
 
-O projeto Space Logistics API foi desenvolvido inspirado nos sistemas de logística utilizados em missões espaciais.
+O projeto AstroRail API foi desenvolvido inspirado nos sistemas de logística utilizados em missões espaciais.
 
 A proposta consiste em uma plataforma capaz de gerenciar entregas de suprimentos para regiões isoladas utilizando drones autônomos e planejamento inteligente de rotas.
 
@@ -515,4 +515,4 @@ Status:
 
 # Conclusão
 
-O projeto Space Logistics API apresenta uma solução inspirada na logística espacial para auxiliar o transporte de suprimentos em regiões isoladas. A aplicação utiliza conceitos de Programação Orientada a Objetos, arquitetura em camadas, persistência de dados e APIs REST para fornecer uma solução organizada, escalável e alinhada aos objetivos da Global Solution.
+O projeto AstroRail API apresenta uma solução inspirada na logística espacial para auxiliar o transporte de suprimentos em regiões isoladas. A aplicação utiliza conceitos de Programação Orientada a Objetos, arquitetura em camadas, persistência de dados e APIs REST para fornecer uma solução organizada, escalável e alinhada com os requisitos da GS.
