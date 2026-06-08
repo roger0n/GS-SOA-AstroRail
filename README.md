@@ -325,18 +325,24 @@ POST http://localhost:8080/regioes
   "longitude": -60.0
 }
 ```
+<img width="1103" height="483" alt="image" src="https://github.com/user-attachments/assets/828ee106-cf78-4cbb-ac28-51b626ac5288" />
+
 
 ### GET
 
 ```http
 GET http://localhost:8080/regioes
 ```
+<img width="1068" height="478" alt="image" src="https://github.com/user-attachments/assets/3a993617-6535-4e27-9d86-83fff9934ce8" />
+
 
 ### GET POR ID
 
 ```http
 GET http://localhost:8080/regioes/1
 ```
+<img width="1041" height="505" alt="image" src="https://github.com/user-attachments/assets/2341a0e4-9743-4ab1-aa84-a569e711b264" />
+
 
 ### PUT
 
@@ -353,12 +359,16 @@ PUT http://localhost:8080/regioes/1
   "longitude": -62.0
 }
 ```
+<img width="1121" height="501" alt="image" src="https://github.com/user-attachments/assets/70ad75e7-3e68-4349-9317-95fcc9d6e67f" />
+
 
 ### DELETE
 
 ```http
-DELETE /regioes/1
+DELETE http://localhost:8080/regioes/1
 ```
+<img width="1017" height="518" alt="image" src="https://github.com/user-attachments/assets/159b9bfd-8cfd-4c64-a785-46ce76965cd6" />
+
 
 ---
 
@@ -378,18 +388,24 @@ POST http://localhost:8080/drones
   "bateria": 90
 }
 ```
+<img width="1045" height="467" alt="image" src="https://github.com/user-attachments/assets/0cc5589b-d623-4ee5-bdae-4a6d89f2c406" />
+
 
 ### GET
 
 ```http
 GET http://localhost:8080/drones
 ```
+<img width="1023" height="470" alt="image" src="https://github.com/user-attachments/assets/8d3c2329-c5d0-4eed-a26a-c8e9ff705861" />
+
 
 ### GET POR ID
 
 ```http
 GET http://localhost:8080/drones/1
 ```
+<img width="1012" height="450" alt="image" src="https://github.com/user-attachments/assets/3692b9e9-d523-4013-9753-59c7f24adc35" />
+
 
 ### PUT
 
@@ -405,12 +421,16 @@ PUT http://localhost:8080/drones/1
   "bateria": 100
 }
 ```
+<img width="1002" height="441" alt="image" src="https://github.com/user-attachments/assets/13e6f82e-a200-4b2c-a612-26628506d4a8" />
+
 
 ### DELETE
 
 ```http
 DELETE http://localhost:8080/drones/1
 ```
+<img width="992" height="440" alt="image" src="https://github.com/user-attachments/assets/acb8f74e-a8fd-4fdc-83b4-7cba3c5f4345" />
+
 
 ---
 
@@ -429,18 +449,24 @@ POST http://localhost:8080/missoes
   "dataPrevistaEntrega": "2026-06-10T14:00:00"
 }
 ```
+<img width="1110" height="707" alt="image" src="https://github.com/user-attachments/assets/9e175a8b-a99b-4eac-9261-f560faa2cb94" />
+
 
 ### GET
 
 ```http
 GET http://localhost:8080/missoes
 ```
+<img width="1103" height="755" alt="image" src="https://github.com/user-attachments/assets/91edb467-f953-48cc-87c6-98a28ca3cc1a" />
+
 
 ### GET POR ID
 
 ```http
 GET http://localhost:8080/missoes/1
 ```
+<img width="1090" height="721" alt="image" src="https://github.com/user-attachments/assets/c9983bea-a2c5-4afc-ad93-721a15a947f4" />
+
 
 ### PUT
 
@@ -454,12 +480,16 @@ PUT http://localhost:8080/missoes/1
   "dataPrevistaEntrega": "2026-06-15T09:00:00"
 }
 ```
+<img width="1113" height="666" alt="image" src="https://github.com/user-attachments/assets/d3b9a6a7-f676-4cb7-b8b7-694b2302875d" />
+
 
 ### DELETE
 
 ```http
 DELETE http://localhost:8080/missoes/1
 ```
+<img width="1012" height="437" alt="image" src="https://github.com/user-attachments/assets/1de465b5-f3d7-4268-8463-a8bc446f1ed6" />
+
 
 ---
 
@@ -486,6 +516,8 @@ Status:
 ```http
 404 NOT FOUND
 ```
+<img width="988" height="366" alt="image" src="https://github.com/user-attachments/assets/d023ea95-7224-4c97-bfbe-58fba52117cf" />
+
 
 ---
 
@@ -510,6 +542,8 @@ Status:
 ```http
 404 NOT FOUND
 ```
+<img width="1071" height="400" alt="image" src="https://github.com/user-attachments/assets/88e463a5-3a56-4781-9791-089cdcfedffb" />
+
 
 ---
 
